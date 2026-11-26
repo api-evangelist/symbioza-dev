@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Symbioza provides cloud GPU compute for AI agents, enabling developers to off‑load model training, evaluation, and batch inference to scalable GPU resources. The platform offers a simple interface to define tasks, set spending limits, and receive results, with transparent billing and no subscription required. It aims to let developers focus on building applications while handling the heavy compute workload efficiently and securely.
+Symbioza provides a containerized GPU compute service for AI agents, enabling them to run training, evaluation, or inference jobs on rented cloud machines under a configurable dollar ceiling. Users submit an image, command, and budget via an MCP connector; Symbioza provisions appropriate compute, executes the workload, and returns output artifacts along with billing details. The platform abstracts away infrastructure management, offering a simple API for job submission, monitoring, and result retrieval, while handling recovery policies and cost controls.
 
-**Areas:** Cloud · GPU · AI · Compute · Platform
+**Areas:** AI · Compute · GPU · Cloud · Agents
 
 ## Symbioza on APIs.io
 
@@ -93,7 +93,7 @@ Published plans, tiers and prices.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://symbioza.dev/)
-- [Documentation](https://github.com/symbioza/claude-plugin/blob/main/docs/cursor.md)
+- [Documentation](https://symbioza.dev/getting-started)
 - [Getting started](https://symbioza.dev/getting-started)
 - [Pricing](https://symbioza.dev/pricing)
 - [Terms of service](https://symbioza.dev/terms)
@@ -102,18 +102,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 21.1** — emerging · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 22.2** — emerging · rubric 0.27.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 55.4 |
+| Discoverability | 48.2 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 4.8 |
+| Operational transparency | 5.3 |
 | Developer ergonomics | 21.4 |
-| Access clarity | 59.1 |
+| Access clarity | 63.7 |
 
-**Agent readiness 3.0** — human-only
+**Agent readiness 3.1** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -139,11 +139,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
-**Regulatory alignment 7.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/symbioza-dev/](https://apis.io/providers/symbioza-dev/).
 
